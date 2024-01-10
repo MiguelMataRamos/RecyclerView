@@ -14,14 +14,14 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val contactos = mutableListOf(
-            Contacto(R.drawable.ic_launcher_foreground, "Miguel", "jajaja@gmail.com", 98872375),
+            Contacto(R.drawable.miguel, "Miguel", "jajaja@gmail.com", 98872375),
             Contacto(R.drawable.juan, "Juan", "jajaja@gmail.com", 98872375),
-            Contacto(R.drawable.ic_launcher_foreground, "Pepe", "jajaja@gmail.com", 98872375),
-            Contacto(R.drawable.ic_launcher_foreground, "Rubio", "jajaja@gmail.com", 98872375),
+            Contacto(R.drawable.pepe, "Pepe", "jajaja@gmail.com", 98872375),
+            Contacto(R.drawable.rubio, "Rubio", "jajaja@gmail.com", 98872375),
             Contacto(R.drawable.jose, "Joses", "jajaja@gmail.com", 98872375),
             Contacto(R.drawable.dani, "Danis", "jajaja@gmail.com", 98872375),
-            Contacto(R.drawable.ic_launcher_foreground, "Pepe", "jajaja@gmail.com", 98872375),
-            Contacto(R.drawable.ic_launcher_foreground, "Rubio", "jajaja@gmail.com", 98872375),
+            Contacto(R.drawable.pepe, "Pepe", "jajaja@gmail.com", 98872375),
+            Contacto(R.drawable.rubio, "Rubio", "jajaja@gmail.com", 98872375),
             Contacto(R.drawable.jose, "Joses", "jajaja@gmail.com", 98872375),
             Contacto(R.drawable.dani, "Danis", "jajaja@gmail.com", 98872375),
         )

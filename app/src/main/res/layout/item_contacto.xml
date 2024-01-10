@@ -13,20 +13,34 @@
         android:background="@color/white"
         >
 
-        <ImageView
-            android:id="@+id/imagen"
+        <androidx.cardview.widget.CardView
             android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:src="@color/black"
+            android:layout_height="70dp"
+            app:cardCornerRadius="30dp"
+            android:layout_marginVertical="30dp"
+            android:id="@id/imagenn"
             app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            />
+            >
+            <ImageView
+                android:id="@+id/imagen"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@color/black"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:adjustViewBounds="true"
+                />
+
+        </androidx.cardview.widget.CardView>
+
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/nombre"
-            app:layout_constraintStart_toEndOf="@+id/imagen"
+            app:layout_constraintStart_toEndOf="@+id/imagenn"
             app:layout_constraintTop_toTopOf="parent"
             android:text="Nombre"
             android:layout_margin="10dp"
@@ -38,7 +52,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/gmail"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/imagen"
+            app:layout_constraintStart_toEndOf="@+id/imagenn"
             android:text="estoseriael@gmail.com"
             android:layout_margin="10dp"
             />
